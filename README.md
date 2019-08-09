@@ -16,7 +16,7 @@
 | Estrutura configurada     |     :white_check_mark:     |
 | Configurando Root Import  |     :white_check_mark:     |
 | Rotas de autenticação     |     :white_check_mark:     |
-| Configurando background   | :eight_pointed_black_star: |
+| Configurando background   |     :white_check_mark:     |
 | Input & Button            | :eight_pointed_black_star: |
 | Página SignIn             | :eight_pointed_black_star: |
 | Página SignUp             | :eight_pointed_black_star: |

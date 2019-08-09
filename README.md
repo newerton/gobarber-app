@@ -13,7 +13,7 @@
 
 | Tools                     |            Done            |
 | ------------------------- | :------------------------: |
-| Estrutura configurada     | :eight_pointed_black_star: |
+| Estrutura configurada     |     :white_check_mark:     |
 | Configurando Root Import  | :eight_pointed_black_star: |
 | Rotas de autenticação     | :eight_pointed_black_star: |
 | Configurando background   | :eight_pointed_black_star: |

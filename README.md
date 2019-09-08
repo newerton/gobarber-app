@@ -25,7 +25,7 @@
 | Reactotron                |     :white_check_mark:     |
 | Configurando Redux        |     :white_check_mark:     |
 | Conectando Redux          |     :white_check_mark:     |
-| Rota inicial              | :eight_pointed_black_star: |
+| Rota inicial              |     :white_check_mark:     |
 | Estilizações das rotas    | :eight_pointed_black_star: |
 | Lista de agendamentos     | :eight_pointed_black_star: |
 | Agendamentos da API       | :eight_pointed_black_star: |

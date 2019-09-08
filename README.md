@@ -19,7 +19,7 @@
 | Configurando background   |     :white_check_mark:     |
 | Input & Button            |     :white_check_mark:     |
 | Página SignIn             |     :white_check_mark:     |
-| Página SignUp             | :eight_pointed_black_star: |
+| Página SignUp             |     :white_check_mark:     |
 | Configurando StatusBar    | :eight_pointed_black_star: |
 | Dicas de acessibilidade   | :eight_pointed_black_star: |
 | Reactotron                | :eight_pointed_black_star: |

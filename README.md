@@ -18,7 +18,7 @@
 | Rotas de autenticação     |     :white_check_mark:     |
 | Configurando background   |     :white_check_mark:     |
 | Input & Button            |     :white_check_mark:     |
-| Página SignIn             | :eight_pointed_black_star: |
+| Página SignIn             |     :white_check_mark:     |
 | Página SignUp             | :eight_pointed_black_star: |
 | Configurando StatusBar    | :eight_pointed_black_star: |
 | Dicas de acessibilidade   | :eight_pointed_black_star: |

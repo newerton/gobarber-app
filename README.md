@@ -20,7 +20,7 @@
 | Input & Button            |     :white_check_mark:     |
 | Página SignIn             |     :white_check_mark:     |
 | Página SignUp             |     :white_check_mark:     |
-| Configurando StatusBar    | :eight_pointed_black_star: |
+| Configurando StatusBar    |     :white_check_mark:     |
 | Dicas de acessibilidade   | :eight_pointed_black_star: |
 | Reactotron                | :eight_pointed_black_star: |
 | Configurando Redux        | :eight_pointed_black_star: |

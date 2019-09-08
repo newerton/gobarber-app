@@ -26,8 +26,8 @@
 | Configurando Redux        |     :white_check_mark:     |
 | Conectando Redux          |     :white_check_mark:     |
 | Rota inicial              |     :white_check_mark:     |
-| Estilizações das rotas    | :eight_pointed_black_star: |
-| Lista de agendamentos     | :eight_pointed_black_star: |
+| Estilizações das rotas    |     :white_check_mark:     |
+| Lista de agendamentos     |     :white_check_mark:     |
 | Agendamentos da API       | :eight_pointed_black_star: |
 | Atualização de perfil     | :eight_pointed_black_star: |
 | Logout                    | :eight_pointed_black_star: |

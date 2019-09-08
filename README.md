@@ -24,7 +24,7 @@
 | Dicas de acessibilidade   |     :white_check_mark:     |
 | Reactotron                |     :white_check_mark:     |
 | Configurando Redux        |     :white_check_mark:     |
-| Conectando Redux          | :eight_pointed_black_star: |
+| Conectando Redux          |     :white_check_mark:     |
 | Rota inicial              | :eight_pointed_black_star: |
 | Estilizações das rotas    | :eight_pointed_black_star: |
 | Lista de agendamentos     | :eight_pointed_black_star: |

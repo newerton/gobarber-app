@@ -21,7 +21,7 @@
 | Página SignIn             |     :white_check_mark:     |
 | Página SignUp             |     :white_check_mark:     |
 | Configurando StatusBar    |     :white_check_mark:     |
-| Dicas de acessibilidade   | :eight_pointed_black_star: |
+| Dicas de acessibilidade   |     :white_check_mark:     |
 | Reactotron                | :eight_pointed_black_star: |
 | Configurando Redux        | :eight_pointed_black_star: |
 | Conectando Redux          | :eight_pointed_black_star: |

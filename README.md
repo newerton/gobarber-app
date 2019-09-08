@@ -17,7 +17,7 @@
 | Configurando Root Import  |     :white_check_mark:     |
 | Rotas de autenticação     |     :white_check_mark:     |
 | Configurando background   |     :white_check_mark:     |
-| Input & Button            | :eight_pointed_black_star: |
+| Input & Button            |     :white_check_mark:     |
 | Página SignIn             | :eight_pointed_black_star: |
 | Página SignUp             | :eight_pointed_black_star: |
 | Configurando StatusBar    | :eight_pointed_black_star: |

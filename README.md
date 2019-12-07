@@ -28,8 +28,8 @@
 | Rota inicial              |     :white_check_mark:     |
 | Estilizações das rotas    |     :white_check_mark:     |
 | Lista de agendamentos     |     :white_check_mark:     |
-| Agendamentos da API       | :eight_pointed_black_star: |
-| Atualização de perfil     | :eight_pointed_black_star: |
+| Agendamentos da API       |     :white_check_mark:     |
+| Atualização de perfil     |     :white_check_mark:     |
 | Logout                    | :eight_pointed_black_star: |
 | Rotas de agendamento      | :eight_pointed_black_star: |
 | Listagem de prestadores   | :eight_pointed_black_star: |

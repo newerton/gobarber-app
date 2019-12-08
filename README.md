@@ -30,7 +30,7 @@
 | Lista de agendamentos     |     :white_check_mark:     |
 | Agendamentos da API       |     :white_check_mark:     |
 | Atualização de perfil     |     :white_check_mark:     |
-| Logout                    | :eight_pointed_black_star: |
+| Logout                    |     :white_check_mark:     |
 | Rotas de agendamento      | :eight_pointed_black_star: |
 | Listagem de prestadores   | :eight_pointed_black_star: |
 | DatePicker por plataforma | :eight_pointed_black_star: |

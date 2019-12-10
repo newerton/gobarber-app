@@ -32,7 +32,7 @@
 | Atualização de perfil     |     :white_check_mark:     |
 | Logout                    |     :white_check_mark:     |
 | Rotas de agendamento      |     :white_check_mark:     |
-| Listagem de prestadores   | :eight_pointed_black_star: |
+| Listagem de prestadores   |     :white_check_mark:     |
 | DatePicker por plataforma | :eight_pointed_black_star: |
 | Selecionando horário      | :eight_pointed_black_star: |
 | Confirmando agendamento   | :eight_pointed_black_star: |

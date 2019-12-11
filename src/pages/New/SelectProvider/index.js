@@ -17,7 +17,7 @@ export default function SelectProvider({ navigation }) {
       setProviders(response.data);
     }
     loadProviders();
-  });
+  }, []);
   return (
     <Background>
       <Container>

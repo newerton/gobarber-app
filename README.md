@@ -33,7 +33,7 @@
 | Logout                    |     :white_check_mark:     |
 | Rotas de agendamento      |     :white_check_mark:     |
 | Listagem de prestadores   |     :white_check_mark:     |
-| DatePicker por plataforma | :eight_pointed_black_star: |
+| DatePicker por plataforma |     :white_check_mark:     |
 | Selecionando horário      | :eight_pointed_black_star: |
 | Confirmando agendamento   | :eight_pointed_black_star: |
 | Load de agendamentos      | :eight_pointed_black_star: |

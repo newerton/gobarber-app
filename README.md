@@ -34,7 +34,7 @@
 | Rotas de agendamento      |     :white_check_mark:     |
 | Listagem de prestadores   |     :white_check_mark:     |
 | DatePicker por plataforma |     :white_check_mark:     |
-| Selecionando horário      | :eight_pointed_black_star: |
+| Selecionando horário      |     :white_check_mark:     |
 | Confirmando agendamento   | :eight_pointed_black_star: |
 | Load de agendamentos      | :eight_pointed_black_star: |
 

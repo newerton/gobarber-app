@@ -11,32 +11,32 @@
 
 **App mobile - React Native**
 
-| Tools                     |            Done            |
-| ------------------------- | :------------------------: |
-| Estrutura configurada     |     :white_check_mark:     |
-| Configurando Root Import  |     :white_check_mark:     |
-| Rotas de autenticação     |     :white_check_mark:     |
-| Configurando background   |     :white_check_mark:     |
-| Input & Button            |     :white_check_mark:     |
-| Página SignIn             |     :white_check_mark:     |
-| Página SignUp             |     :white_check_mark:     |
-| Configurando StatusBar    |     :white_check_mark:     |
-| Dicas de acessibilidade   |     :white_check_mark:     |
-| Reactotron                |     :white_check_mark:     |
-| Configurando Redux        |     :white_check_mark:     |
-| Conectando Redux          |     :white_check_mark:     |
-| Rota inicial              |     :white_check_mark:     |
-| Estilizações das rotas    |     :white_check_mark:     |
-| Lista de agendamentos     |     :white_check_mark:     |
-| Agendamentos da API       |     :white_check_mark:     |
-| Atualização de perfil     |     :white_check_mark:     |
-| Logout                    |     :white_check_mark:     |
-| Rotas de agendamento      |     :white_check_mark:     |
-| Listagem de prestadores   |     :white_check_mark:     |
-| DatePicker por plataforma |     :white_check_mark:     |
-| Selecionando horário      |     :white_check_mark:     |
-| Confirmando agendamento   |     :white_check_mark:     |
-| Load de agendamentos      | :eight_pointed_black_star: |
+| Tools                     |        Done        |
+| ------------------------- | :----------------: |
+| Estrutura configurada     | :white_check_mark: |
+| Configurando Root Import  | :white_check_mark: |
+| Rotas de autenticação     | :white_check_mark: |
+| Configurando background   | :white_check_mark: |
+| Input & Button            | :white_check_mark: |
+| Página SignIn             | :white_check_mark: |
+| Página SignUp             | :white_check_mark: |
+| Configurando StatusBar    | :white_check_mark: |
+| Dicas de acessibilidade   | :white_check_mark: |
+| Reactotron                | :white_check_mark: |
+| Configurando Redux        | :white_check_mark: |
+| Conectando Redux          | :white_check_mark: |
+| Rota inicial              | :white_check_mark: |
+| Estilizações das rotas    | :white_check_mark: |
+| Lista de agendamentos     | :white_check_mark: |
+| Agendamentos da API       | :white_check_mark: |
+| Atualização de perfil     | :white_check_mark: |
+| Logout                    | :white_check_mark: |
+| Rotas de agendamento      | :white_check_mark: |
+| Listagem de prestadores   | :white_check_mark: |
+| DatePicker por plataforma | :white_check_mark: |
+| Selecionando horário      | :white_check_mark: |
+| Confirmando agendamento   | :white_check_mark: |
+| Load de agendamentos      | :white_check_mark: |
 
 **Backend - Node.js**
 

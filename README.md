@@ -35,7 +35,7 @@
 | Listagem de prestadores   |     :white_check_mark:     |
 | DatePicker por plataforma |     :white_check_mark:     |
 | Selecionando horário      |     :white_check_mark:     |
-| Confirmando agendamento   | :eight_pointed_black_star: |
+| Confirmando agendamento   |     :white_check_mark:     |
 | Load de agendamentos      | :eight_pointed_black_star: |
 
 **Backend - Node.js**

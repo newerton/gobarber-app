@@ -25,7 +25,7 @@
     "react-navigation": "^5.0.0",
     "react-redux": "^9.0.4",
     "reactotron-react-native": "^5.0.0",
-    "reactotron-redux": "^3.1.2",
+    "reactotron-redux": "^3.2.1",
     "redux": "^5.0.1",
     "redux-persist": "^6.0.0",
     "redux-saga": "^1.0.5",

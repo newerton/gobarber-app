@@ -42,7 +42,7 @@
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-react": "^7.14.3",
     "jest": "^30.2.0",
     "metro-react-native-babel-preset": "^0.77.0",

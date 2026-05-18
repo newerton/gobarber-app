@@ -23,7 +23,7 @@
     "react-native-localize": "^3.7.0",
     "react-native-vector-icons": "^10.0.0",
     "react-navigation": "^5.0.0",
-    "react-redux": "^9.0.4",
+    "react-redux": "^9.3.0",
     "reactotron-redux": "^3.2.1",
     "reactotron-react-native": "^5.1.18",
     "redux": "^5.0.1",

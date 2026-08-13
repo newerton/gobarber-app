@@ -1,4 +1,4 @@
-import { createStore, compose, applyMiddleware } from 'redux';
+import { applyMiddleware, compose, createStore } from 'redux';
 
 export default (reducers, middlewares) => {
   const enhancer = __DEV__

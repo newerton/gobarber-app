@@ -1,25 +1,24 @@
-import React, { useRef, useState, useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-
+import { useEffect, useRef, useState } from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import { useDispatch, useSelector } from 'react-redux';
 
 import Background from '~/components/Background';
-import { updateProfileRequest } from '~/store/modules/user/actions';
 import { signOut } from '~/store/modules/auth/actions';
+import { updateProfileRequest } from '~/store/modules/user/actions';
 
 import {
   Container,
-  Title,
   Form,
   FormInput,
+  LogoutButton,
   Separator,
   SubmitButton,
-  LogoutButton,
+  Title,
 } from './styles';
 
 export default function Profile() {
   const dispatch = useDispatch();
-  const profile = useSelector(state => state.user.profile);
+  const profile = useSelector((state) => state.user.profile);
 
   const emailRef = useRef();
   const oldPasswordRef = useRef();
@@ -36,7 +35,7 @@ export default function Profile() {
     setOldPassword('');
     setPassword('');
     setConfirmPassword('');
-  }, [profile]);
+  }, []);
 
   function handleSubmit() {
     dispatch(
@@ -46,7 +45,7 @@ export default function Profile() {
         oldPassword,
         password,
         confirmPassword,
-      })
+      }),
     );
   }
 

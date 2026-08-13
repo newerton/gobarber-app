@@ -7,7 +7,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "biome check --write --unsafe"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^2.0.0-rc.0",
@@ -34,6 +34,7 @@
   "devDependencies": {
     "@babel/core": "^8.0.1",
     "@babel/runtime": "^8.0.0",
+    "@biomejs/biome": "^2.5.8",
     "babel-jest": "^30.4.1",
     "babel-plugin-root-import": "^6.6.0",
     "jest": "^30.4.2",
@@ -48,6 +49,7 @@
     "form-data": "^4.0.6",
     "ws": "^8.21.0",
     "js-yaml": "^5.2.3",
-    "brace-expansion": "^5.0.9"
+    "brace-expansion": "^5.0.9",
+    "image-size": "^2.0.2"
   }
 }

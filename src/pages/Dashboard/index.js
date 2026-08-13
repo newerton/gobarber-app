@@ -1,13 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { withNavigationFocus } from 'react-navigation';
-
-import api from '~/services/api';
-
-import Background from '~/components/Background';
 import Appointment from '~/components/Appointment';
 
-import { Container, Title, List } from './styles';
+import Background from '~/components/Background';
+import api from '~/services/api';
+
+import { Container, List, Title } from './styles';
 
 function Dashboard({ isFocused }) {
   const [appointments, setAppointments] = useState([]);
@@ -21,20 +20,20 @@ function Dashboard({ isFocused }) {
     if (isFocused) {
       loadAppointments();
     }
-  }, [isFocused]);
+  }, [isFocused, loadAppointments]);
 
   async function handleCancel(id) {
     const response = await api.delete(`appointment/${id}`);
 
     setAppointments(
-      appointments.map(appointment =>
+      appointments.map((appointment) =>
         appointment.id === id
           ? {
               ...appointment,
               canceled_at: response.data.canceled_at,
             }
-          : appointment
-      )
+          : appointment,
+      ),
     );
     loadAppointments();
   }
@@ -46,7 +45,7 @@ function Dashboard({ isFocused }) {
 
         <List
           data={appointments}
-          keyExtractor={item => String(item.id)}
+          keyExtractor={(item) => String(item.id)}
           renderItem={({ item }) => (
             <Appointment onCancel={() => handleCancel(item.id)} data={item} />
           )}

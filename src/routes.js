@@ -1,22 +1,17 @@
-import React from 'react';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import {
   createAppContainer,
-  createSwitchNavigator,
   createBottomTabNavigator,
   createStackNavigator,
+  createSwitchNavigator,
 } from 'react-navigation';
-
-import Icon from 'react-native-vector-icons/MaterialIcons';
-
+import Dashboard from './pages/Dashboard';
+import Confirm from './pages/New/Confirm';
+import SelectDateTime from './pages/New/SelectDateTime';
+import SelectProvider from './pages/New/SelectProvider';
+import Profile from './pages/Profile';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
-
-import SelectProvider from './pages/New/SelectProvider';
-import SelectDateTime from './pages/New/SelectDateTime';
-import Confirm from './pages/New/Confirm';
-
-import Dashboard from './pages/Dashboard';
-import Profile from './pages/Profile';
 
 export default (isSigned = false) =>
   createAppContainer(
@@ -44,7 +39,7 @@ export default (isSigned = false) =>
                       marginLeft: 20,
                     },
                   },
-                }
+                },
               ),
               navigationOptions: {
                 tabBarVisible: false,
@@ -70,11 +65,11 @@ export default (isSigned = false) =>
                 backgroundColor: '#8d41a8',
               },
             },
-          }
+          },
         ),
       },
       {
         initialRouteName: isSigned ? 'App' : 'Sign',
-      }
-    )
+      },
+    ),
   );

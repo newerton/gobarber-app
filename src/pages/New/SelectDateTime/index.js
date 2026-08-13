@@ -1,13 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-
-import api from '~/services/api';
-
 import Background from '~/components/Background';
 import DateInput from '~/components/DateInput';
+import api from '~/services/api';
 
-import { Container, HourList, Hour, Title } from './styles';
+import { Container, Hour, HourList, Title } from './styles';
 
 export default function SelectDateTime({ navigation }) {
   const [date, setDate] = useState(new Date());
@@ -42,7 +40,7 @@ export default function SelectDateTime({ navigation }) {
 
         <HourList
           data={hours}
-          keyExtractor={item => item.time}
+          keyExtractor={(item) => item.time}
           renderItem={({ item }) => (
             <Hour
               onPress={() => handleSelectHour(item.value)}

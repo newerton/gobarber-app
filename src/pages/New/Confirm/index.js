@@ -1,15 +1,13 @@
-import React, { useMemo } from 'react';
-import * as RNLocalize from 'react-native-localize';
-import { TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialIcons';
 import { formatRelative, parseISO } from 'date-fns';
 import pt from 'date-fns/locale/pt-BR';
-
+import { useMemo } from 'react';
+import { TouchableOpacity } from 'react-native';
+import * as RNLocalize from 'react-native-localize';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import Background from '~/components/Background';
 import api from '~/services/api';
 
-import Background from '~/components/Background';
-
-import { Container, Avatar, Name, Time, SubmitButton } from './styles';
+import { Avatar, Container, Name, SubmitButton, Time } from './styles';
 
 export default function Confirm({ navigation }) {
   const provider = navigation.getParam('provider');
@@ -23,7 +21,7 @@ export default function Confirm({ navigation }) {
         timeZone: timezone,
         locale: pt,
       }),
-    [time]
+    [time, timezone],
   );
 
   async function handleAddAppointment() {

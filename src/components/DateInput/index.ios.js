@@ -1,8 +1,8 @@
-import React, { useState, useMemo } from 'react';
-import * as RNLocalize from 'react-native-localize';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { format } from 'date-fns';
 import pt from 'date-fns/locale/pt';
+import { useMemo, useState } from 'react';
+import * as RNLocalize from 'react-native-localize';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
@@ -18,10 +18,10 @@ export default function DateInput({ date, onChange }) {
         timeZone: timezone,
         locale: pt,
       }),
-    [date]
+    [date, timezone],
   );
 
-  async function setDate(event, value) {
+  async function setDate(_event, value) {
     setOpened(false);
     if (value) {
       const selectedDate = new Date(value);

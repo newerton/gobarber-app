@@ -12,12 +12,12 @@
   "dependencies": {
     "@react-native-community/async-storage": "^2.0.0-rc.3",
     "@react-native-community/datetimepicker": "^9.1.0",
-    "axios": ">=1.19.0",
+    "axios": ">=1.20.0",
     "date-fns": "^4.4.0",
     "immer": "^11.1.18",
     "prop-types": "^15.8.1",
     "react": "19.2.8",
-    "react-native": "^0.87.0",
+    "react-native": "^0.87.1",
     "react-native-gesture-handler": "^3.2.1",
     "react-native-linear-gradient": "^2.8.3",
     "react-native-localize": "^3.7.0",
@@ -34,10 +34,10 @@
   "devDependencies": {
     "@babel/core": "^8.0.1",
     "@babel/runtime": "^8.0.0",
-    "@biomejs/biome": "^2.5.10",
-    "babel-jest": "^30.4.1",
+    "@biomejs/biome": "^2.5.11",
+    "babel-jest": "^30.5.0",
     "babel-plugin-root-import": "^6.6.0",
-    "jest": "^30.4.2",
+    "jest": "^30.5.0",
     "metro-react-native-babel-preset": "^0.77.0",
     "prettier": "^3.9.6",
     "react-test-renderer": "19.2.8"

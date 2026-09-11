@@ -18,7 +18,7 @@
     "prop-types": "^15.8.1",
     "react": "19.3.0",
     "react-native": "^0.87.1",
-    "react-native-gesture-handler": "^3.2.1",
+    "react-native-gesture-handler": "^3.3.0",
     "react-native-linear-gradient": "^2.8.3",
     "react-native-localize": "^3.7.0",
     "react-native-vector-icons": "^10.3.0",
@@ -46,11 +46,6 @@
     "preset": "react-native"
   },
   "overrides": {
-    "form-data": "^4.0.6",
-    "ws": "^8.21.0",
-    "js-yaml": "^5.2.3",
-    "brace-expansion": "^5.0.9",
-    "image-size": "^2.0.2",
-    "browserslist": "^4.28.8"
+    "image-size": "^2.0.2"
   }
 }

@@ -39,7 +39,7 @@
     "babel-plugin-root-import": "^6.6.0",
     "jest": "^30.5.1",
     "metro-react-native-babel-preset": "^0.77.0",
-    "prettier": "^3.9.6",
+    "prettier": "^3.9.8",
     "react-test-renderer": "19.3.0"
   },
   "jest": {

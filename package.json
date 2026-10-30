@@ -12,7 +12,7 @@
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.1",
     "@react-native-community/datetimepicker": "^9.2.2",
-    "axios": ">=1.20.0",
+    "axios": ">=1.21.0",
     "date-fns": "^4.4.0",
     "immer": "^11.2.9",
     "prop-types": "^15.8.1",
